@@ -1,0 +1,165 @@
+
+mkdir -p  ru ;
+mkdir -p  ru/ ;
+
+mkdir -p  ru_old ;
+mkdir -p  ru_old/ ;
+
+mkdir -p  cases/ru_petsharing_app ;
+mkdir -p  cases/ru_petsharing_app/ ;
+
+mkdir -p  ready_apps/house_rental_app ;
+mkdir -p  ready_apps/house_rental_app/ ;
+
+mkdir -p  en_ready_apps/4 ;
+mkdir -p  en_ready_apps/4/ ;
+
+mkdir -p  ru_ready_apps/taxi_app ;
+mkdir -p  ru_ready_apps/taxi_app/ ;
+
+mkdir -p  cases/ru_news_crowdsourcing ;
+mkdir -p  cases/ru_news_crowdsourcing/ ;
+
+mkdir -p  cases/ru_marketplace_affirmations ;
+mkdir -p  cases/ru_marketplace_affirmations/ ;
+
+mkdir -p  cases/index ;
+mkdir -p  cases/index/ ;
+
+mkdir -p  cases/ru_metroll_app ;
+mkdir -p  cases/ru_metroll_app/ ;
+
+mkdir -p  cases/ru_index ;
+mkdir -p  cases/ru_index/ ;
+
+mkdir -p  cases/ru_been_clone ;
+mkdir -p  cases/ru_been_clone/ ;
+
+mkdir -p  ru_ready_apps ;
+mkdir -p  ru_ready_apps/ ;
+
+mkdir -p  cases/ru_club_app ;
+mkdir -p  cases/ru_club_app/ ;
+
+mkdir -p  ru_ready_apps/house_rental_app ;
+mkdir -p  ru_ready_apps/house_rental_app/ ;
+
+mkdir -p  ru_ready_apps/task_man ;
+mkdir -p  ru_ready_apps/task_man/ ;
+
+mkdir -p  ru_ready_apps/4 ;
+mkdir -p  ru_ready_apps/4/ ;
+
+mkdir -p  ru_ready_apps/ting_app ;
+mkdir -p  ru_ready_apps/ting_app/ ;
+
+mkdir -p  ru_ready_apps/social_app ;
+mkdir -p  ru_ready_apps/social_app/ ;
+
+mkdir -p  cases/petsharing_app ;
+mkdir -p  cases/petsharing_app/ ;
+
+mkdir -p  cases/news_crowdsourcing ;
+mkdir -p  cases/news_crowdsourcing/ ;
+
+mkdir -p  cases/marketplace_affirmations ;
+mkdir -p  cases/marketplace_affirmations/ ;
+
+mkdir -p  cases/metroll_app ;
+mkdir -p  cases/metroll_app/ ;
+
+mkdir -p  cases/been_clone ;
+mkdir -p  cases/been_clone/ ;
+
+mkdir -p  cases/club_app ;
+mkdir -p  cases/club_app/ ;
+
+mkdir -p  ready_apps/taxi_app ;
+mkdir -p  ready_apps/taxi_app/ ;
+
+mkdir -p  ready_apps/task_man ;
+mkdir -p  ready_apps/task_man/ ;
+
+mkdir -p  ready_apps/ting_app ;
+mkdir -p  ready_apps/ting_app/ ;
+
+mkdir -p  ready_apps/social_app ;
+mkdir -p  ready_apps/social_app/ ;
+
+mkdir -p  ready_apps ;
+mkdir -p  ready_apps/ ;
+
+mkdir -p  en_ready_apps/7 ;
+mkdir -p  en_ready_apps/7/ ;
+
+mkdir -p  ready_apps/social_network_face_recognition ;
+mkdir -p  ready_apps/social_network_face_recognition/ ;
+
+mkdir -p  ready_apps/messaging_app ;
+mkdir -p  ready_apps/messaging_app/ ;
+
+mkdir -p  ready_apps/rental_platform ;
+mkdir -p  ready_apps/rental_platform/ ;
+
+mkdir -p  ready_apps/on_demand_delivery_taxi ;
+mkdir -p  ready_apps/on_demand_delivery_taxi/ ;
+
+mkdir -p  ready_apps/food_delivery ;
+mkdir -p  ready_apps/food_delivery/ ;
+
+mkdir -p  ready_apps/dating_app ;
+mkdir -p  ready_apps/dating_app/ ;
+
+mkdir -p  ready_apps/instagram_clone_app ;
+mkdir -p  ready_apps/instagram_clone_app/ ;
+
+mkdir -p  cases/ru_pomoshnik_spikera ;
+mkdir -p  cases/ru_pomoshnik_spikera/ ;
+
+mkdir -p  cases/ru_mobile_corporate_learning_platform ;
+mkdir -p  cases/ru_mobile_corporate_learning_platform/ ;
+
+mkdir -p  cases/ru_bookwa ;
+mkdir -p  cases/ru_bookwa/ ;
+
+mkdir -p  cases/ru_zero_one_monitoring ;
+mkdir -p  cases/ru_zero_one_monitoring/ ;
+
+mkdir -p  cases/social_network_books_readers ;
+mkdir -p  cases/social_network_books_readers/ ;
+
+mkdir -p  cases/speaker_expert_assistant ;
+mkdir -p  cases/speaker_expert_assistant/ ;
+
+mkdir -p  cases/corporate_mobile_micro_learning ;
+mkdir -p  cases/corporate_mobile_micro_learning/ ;
+
+mkdir -p  cases/cloud_monitoring_solution ;
+mkdir -p  cases/cloud_monitoring_solution/ ;
+
+mkdir -p  ru/privacy_policy ;
+mkdir -p  ru/privacy_policy/ ;
+
+mkdir -p  cases/ru_marketplace_smart_tourist ;
+mkdir -p  cases/ru_marketplace_smart_tourist/ ;
+
+mkdir -p  cases/ru_my_dreams_log_app ;
+mkdir -p  cases/ru_my_dreams_log_app/ ;
+
+mkdir -p  cases/cargo ;
+mkdir -p  cases/cargo/ ;
+
+mkdir -p  index_old ;
+mkdir -p  index_old/ ;
+
+mkdir -p  ru_joinus ;
+mkdir -p  ru_joinus/ ;
+
+mkdir -p  cases/ru_cargo ;
+mkdir -p  cases/ru_cargo/ ;
+
+mkdir -p  cases/my_dreams_log_app ;
+mkdir -p  cases/my_dreams_log_app/ ;
+
+mkdir -p  cases/marketplace_smart_tourist ;
+mkdir -p  cases/marketplace_smart_tourist/ ;

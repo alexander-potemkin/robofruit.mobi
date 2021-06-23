@@ -1,0 +1,184 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page13675204.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://robofruit\.mobi/$1 [R=301,L]
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =https
+RewriteCond %{HTTP_HOST} ^www\.robofruit.mobi [NC]
+RewriteRule ^(.*)$ https://robofruit\.mobi/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^ru$ page14228738.html [NC]
+RewriteRule ^ru/$ page14228738.html [NC]
+
+RewriteRule ^ru_old$ page9563915.html [NC]
+RewriteRule ^ru_old/$ page9563915.html [NC]
+
+RewriteRule ^cases/ru_petsharing_app$ page10371605.html [NC]
+RewriteRule ^cases/ru_petsharing_app/$ page10371605.html [NC]
+
+RewriteRule ^ready_apps/house_rental_app$ page10756637.html [NC]
+RewriteRule ^ready_apps/house_rental_app/$ page10756637.html [NC]
+
+RewriteRule ^en_ready_apps/4$ page10756641.html [NC]
+RewriteRule ^en_ready_apps/4/$ page10756641.html [NC]
+
+RewriteRule ^ru_ready_apps/taxi_app$ page10535336.html [NC]
+RewriteRule ^ru_ready_apps/taxi_app/$ page10535336.html [NC]
+
+RewriteRule ^cases/ru_news_crowdsourcing$ page10452796.html [NC]
+RewriteRule ^cases/ru_news_crowdsourcing/$ page10452796.html [NC]
+
+RewriteRule ^cases/ru_marketplace_affirmations$ page10458435.html [NC]
+RewriteRule ^cases/ru_marketplace_affirmations/$ page10458435.html [NC]
+
+RewriteRule ^cases/index$ page10626794.html [NC]
+RewriteRule ^cases/index/$ page10626794.html [NC]
+
+RewriteRule ^cases/ru_metroll_app$ page10459764.html [NC]
+RewriteRule ^cases/ru_metroll_app/$ page10459764.html [NC]
+
+RewriteRule ^cases/ru_index$ page10371538.html [NC]
+RewriteRule ^cases/ru_index/$ page10371538.html [NC]
+
+RewriteRule ^cases/ru_been_clone$ page10506089.html [NC]
+RewriteRule ^cases/ru_been_clone/$ page10506089.html [NC]
+
+RewriteRule ^ru_ready_apps$ page10535289.html [NC]
+RewriteRule ^ru_ready_apps/$ page10535289.html [NC]
+
+RewriteRule ^cases/ru_club_app$ page10506035.html [NC]
+RewriteRule ^cases/ru_club_app/$ page10506035.html [NC]
+
+RewriteRule ^ru_ready_apps/house_rental_app$ page10535345.html [NC]
+RewriteRule ^ru_ready_apps/house_rental_app/$ page10535345.html [NC]
+
+RewriteRule ^ru_ready_apps/task_man$ page10535363.html [NC]
+RewriteRule ^ru_ready_apps/task_man/$ page10535363.html [NC]
+
+RewriteRule ^ru_ready_apps/4$ page10535369.html [NC]
+RewriteRule ^ru_ready_apps/4/$ page10535369.html [NC]
+
+RewriteRule ^ru_ready_apps/ting_app$ page10535374.html [NC]
+RewriteRule ^ru_ready_apps/ting_app/$ page10535374.html [NC]
+
+RewriteRule ^ru_ready_apps/social_app$ page10535380.html [NC]
+RewriteRule ^ru_ready_apps/social_app/$ page10535380.html [NC]
+
+RewriteRule ^cases/petsharing_app$ page10626647.html [NC]
+RewriteRule ^cases/petsharing_app/$ page10626647.html [NC]
+
+RewriteRule ^cases/news_crowdsourcing$ page10626650.html [NC]
+RewriteRule ^cases/news_crowdsourcing/$ page10626650.html [NC]
+
+RewriteRule ^cases/marketplace_affirmations$ page10626652.html [NC]
+RewriteRule ^cases/marketplace_affirmations/$ page10626652.html [NC]
+
+RewriteRule ^cases/metroll_app$ page10626658.html [NC]
+RewriteRule ^cases/metroll_app/$ page10626658.html [NC]
+
+RewriteRule ^cases/been_clone$ page10626660.html [NC]
+RewriteRule ^cases/been_clone/$ page10626660.html [NC]
+
+RewriteRule ^cases/club_app$ page10626665.html [NC]
+RewriteRule ^cases/club_app/$ page10626665.html [NC]
+
+RewriteRule ^ready_apps/taxi_app$ page10756636.html [NC]
+RewriteRule ^ready_apps/taxi_app/$ page10756636.html [NC]
+
+RewriteRule ^ready_apps/task_man$ page10756640.html [NC]
+RewriteRule ^ready_apps/task_man/$ page10756640.html [NC]
+
+RewriteRule ^ready_apps/ting_app$ page10756642.html [NC]
+RewriteRule ^ready_apps/ting_app/$ page10756642.html [NC]
+
+RewriteRule ^ready_apps/social_app$ page10756644.html [NC]
+RewriteRule ^ready_apps/social_app/$ page10756644.html [NC]
+
+RewriteRule ^ready_apps$ page10756711.html [NC]
+RewriteRule ^ready_apps/$ page10756711.html [NC]
+
+RewriteRule ^en_ready_apps/7$ page10757855.html [NC]
+RewriteRule ^en_ready_apps/7/$ page10757855.html [NC]
+
+RewriteRule ^ready_apps/social_network_face_recognition$ page10808634.html [NC]
+RewriteRule ^ready_apps/social_network_face_recognition/$ page10808634.html [NC]
+
+RewriteRule ^ready_apps/messaging_app$ page10808933.html [NC]
+RewriteRule ^ready_apps/messaging_app/$ page10808933.html [NC]
+
+RewriteRule ^ready_apps/rental_platform$ page10811274.html [NC]
+RewriteRule ^ready_apps/rental_platform/$ page10811274.html [NC]
+
+RewriteRule ^ready_apps/on_demand_delivery_taxi$ page10811491.html [NC]
+RewriteRule ^ready_apps/on_demand_delivery_taxi/$ page10811491.html [NC]
+
+RewriteRule ^ready_apps/food_delivery$ page10811663.html [NC]
+RewriteRule ^ready_apps/food_delivery/$ page10811663.html [NC]
+
+RewriteRule ^ready_apps/dating_app$ page10811784.html [NC]
+RewriteRule ^ready_apps/dating_app/$ page10811784.html [NC]
+
+RewriteRule ^ready_apps/instagram_clone_app$ page10842903.html [NC]
+RewriteRule ^ready_apps/instagram_clone_app/$ page10842903.html [NC]
+
+RewriteRule ^cases/ru_pomoshnik_spikera$ page10875044.html [NC]
+RewriteRule ^cases/ru_pomoshnik_spikera/$ page10875044.html [NC]
+
+RewriteRule ^cases/ru_mobile_corporate_learning_platform$ page10875103.html [NC]
+RewriteRule ^cases/ru_mobile_corporate_learning_platform/$ page10875103.html [NC]
+
+RewriteRule ^cases/ru_bookwa$ page10892430.html [NC]
+RewriteRule ^cases/ru_bookwa/$ page10892430.html [NC]
+
+RewriteRule ^cases/ru_zero_one_monitoring$ page10893559.html [NC]
+RewriteRule ^cases/ru_zero_one_monitoring/$ page10893559.html [NC]
+
+RewriteRule ^cases/social_network_books_readers$ page10916689.html [NC]
+RewriteRule ^cases/social_network_books_readers/$ page10916689.html [NC]
+
+RewriteRule ^cases/speaker_expert_assistant$ page10921456.html [NC]
+RewriteRule ^cases/speaker_expert_assistant/$ page10921456.html [NC]
+
+RewriteRule ^cases/corporate_mobile_micro_learning$ page10921466.html [NC]
+RewriteRule ^cases/corporate_mobile_micro_learning/$ page10921466.html [NC]
+
+RewriteRule ^cases/cloud_monitoring_solution$ page10921468.html [NC]
+RewriteRule ^cases/cloud_monitoring_solution/$ page10921468.html [NC]
+
+RewriteRule ^ru/privacy_policy$ page12174875.html [NC]
+RewriteRule ^ru/privacy_policy/$ page12174875.html [NC]
+
+RewriteRule ^cases/ru_marketplace_smart_tourist$ page13028348.html [NC]
+RewriteRule ^cases/ru_marketplace_smart_tourist/$ page13028348.html [NC]
+
+RewriteRule ^cases/ru_my_dreams_log_app$ page13078128.html [NC]
+RewriteRule ^cases/ru_my_dreams_log_app/$ page13078128.html [NC]
+
+RewriteRule ^cases/cargo$ page13392488.html [NC]
+RewriteRule ^cases/cargo/$ page13392488.html [NC]
+
+RewriteRule ^index_old$ page7612797.html [NC]
+RewriteRule ^index_old/$ page7612797.html [NC]
+
+RewriteRule ^ru_joinus$ page14509470.html [NC]
+RewriteRule ^ru_joinus/$ page14509470.html [NC]
+
+RewriteRule ^cases/ru_cargo$ page14533340.html [NC]
+RewriteRule ^cases/ru_cargo/$ page14533340.html [NC]
+
+RewriteRule ^cases/my_dreams_log_app$ page14533616.html [NC]
+RewriteRule ^cases/my_dreams_log_app/$ page14533616.html [NC]
+
+RewriteRule ^cases/marketplace_smart_tourist$ page14534114.html [NC]
+RewriteRule ^cases/marketplace_smart_tourist/$ page14534114.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild6336-3337-4737-a138-383435633137/favicon.ico [R=302,L]
+
