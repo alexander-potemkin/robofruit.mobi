@@ -1084,7 +1084,7 @@ function t744__hoverZoom_init(recid) {
                 };
             }
             $.cachedZoomScript(
-                'https://static.tildacdn.com/https://roosyak.github.io/techflow.studio/js/tilda-hover-zoom-1.0.min.js'
+                'https://static.tildacdn.com/https://roosyak.github.io/robofruit.mobi/js/tilda-hover-zoom-1.0.min.js'
             ).done(function (script, textStatus) {
                 if (textStatus == 'success') {
                     setTimeout(function () {
